@@ -3,4 +3,9 @@ name = "bevy_netcode"
 version = "0.1.0"
 edition = "2021"
 
+[dependencies.bevy]
+version = "0.14"
+default-features = false
+
 [dependencies]
+netcode_macros = { path = "netcode_macros" }
